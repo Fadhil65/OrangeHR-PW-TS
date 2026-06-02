@@ -1,0 +1,244 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "搜索" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "管理员" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: 管理员
+            - listitem [ref=e25]:
+              - link "个人信息管理系统" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: 个人信息管理系统
+            - listitem [ref=e41]:
+              - link "休假" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e45]: 休假
+            - listitem [ref=e46]:
+              - link "时间" [ref=e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e53]: 时间
+            - listitem [ref=e54]:
+              - link "招聘" [ref=e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e61]: 招聘
+            - listitem [ref=e62]:
+              - link "我的信息" [ref=e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e69]: 我的信息
+            - listitem [ref=e70]:
+              - link "绩效" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e79]: 绩效
+            - listitem [ref=e80]:
+              - link "仪表盘" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e84]: 仪表盘
+            - listitem [ref=e85]:
+              - link "Directory" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e89]: Directory
+            - listitem [ref=e90]:
+              - link "Maintenance" [ref=e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e95]: Maintenance
+            - listitem [ref=e96]:
+              - link "Claim" [ref=e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e100]
+                - generic [ref=e104]: Claim
+            - listitem [ref=e105]:
+              - link "激动" [ref=e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e109]: 激动
+    - banner [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: 
+          - heading "仪表盘" [level=6] [ref=e114]
+        - link "Upgrade" [ref=e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e117] [cursor=pointer]: Upgrade
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - img "profile picture" [ref=e126]
+              - paragraph [ref=e127]: manda user
+              - generic [ref=e128]: 
+      - navigation "Topbar Menu" [ref=e130]:
+        - list [ref=e131]:
+          - button "" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: 
+  - generic [ref=e135]:
+    - generic [ref=e137]:
+      - generic [ref=e139]:
+        - generic [ref=e141]:
+          - generic [ref=e142]: 
+          - paragraph [ref=e143]: Time at Work
+        - separator [ref=e144]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - img "profile picture" [ref=e149]
+            - generic [ref=e150]:
+              - paragraph [ref=e151]: Punched Out
+              - paragraph [ref=e152]: "Punched Out: Mar 29th at 01:19 PM (GMT 7)"
+          - generic [ref=e153]:
+            - generic [ref=e154]: 0h 0m Today
+            - button "" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: 
+          - separator [ref=e157]
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - paragraph [ref=e160]: This Week
+              - paragraph [ref=e161]: Jun 01 - Jun 07
+            - generic [ref=e162]:
+              - generic [ref=e163]: 
+              - paragraph [ref=e164]: 0h 0m
+      - generic [ref=e168]:
+        - generic [ref=e170]:
+          - generic [ref=e171]: 
+          - paragraph [ref=e172]: My Actions
+        - separator [ref=e173]
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - button [ref=e177] [cursor=pointer]
+            - paragraph [ref=e183] [cursor=pointer]: (1) Pending Self Review
+          - generic [ref=e184]:
+            - button [ref=e185] [cursor=pointer]
+            - paragraph [ref=e194] [cursor=pointer]: (1) Candidate to Interview
+      - generic [ref=e196]:
+        - generic [ref=e198]:
+          - generic [ref=e199]: 
+          - paragraph [ref=e200]: Quick Launch
+        - separator [ref=e201]
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - button "分配休假" [ref=e205] [cursor=pointer]
+            - generic "分配休假" [ref=e208]:
+              - paragraph [ref=e209]: 分配休假
+          - generic [ref=e210]:
+            - button "休假列表" [ref=e211] [cursor=pointer]
+            - generic "休假列表" [ref=e218]:
+              - paragraph [ref=e219]: 休假列表
+          - generic [ref=e220]:
+            - button "工时表" [ref=e221] [cursor=pointer]
+            - generic "工时表" [ref=e227]:
+              - paragraph [ref=e228]: 工时表
+          - generic [ref=e229]:
+            - button "申请休假" [ref=e230] [cursor=pointer]
+            - generic "申请休假" [ref=e233]:
+              - paragraph [ref=e234]: 申请休假
+          - generic [ref=e235]:
+            - button "我的休假" [ref=e236] [cursor=pointer]
+            - generic "我的休假" [ref=e241]:
+              - paragraph [ref=e242]: 我的休假
+          - generic [ref=e243]:
+            - button "我的时间表" [ref=e244] [cursor=pointer]
+            - generic "我的时间表" [ref=e247]:
+              - paragraph [ref=e248]: 我的时间表
+      - generic [ref=e250]:
+        - generic [ref=e252]:
+          - generic [ref=e253]: 
+          - paragraph [ref=e254]: Buzz Latest Posts
+        - separator [ref=e255]
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - generic [ref=e259] [cursor=pointer]:
+              - img "profile picture" [ref=e261]
+              - generic [ref=e262]:
+                - paragraph [ref=e263]: manda akhil user
+                - paragraph [ref=e264]: 2026-02-06 04:52 PM
+            - separator [ref=e265]
+            - paragraph [ref=e266]: Automation Buzz Post Testing
+          - generic [ref=e267]:
+            - generic [ref=e268] [cursor=pointer]:
+              - img "profile picture" [ref=e270]
+              - generic [ref=e271]:
+                - paragraph [ref=e272]: manda akhil user
+                - paragraph [ref=e273]: 2026-02-06 04:36 PM
+            - separator [ref=e274]
+            - paragraph [ref=e275]: Automation Buzz Post Testing
+          - generic [ref=e276]:
+            - generic [ref=e277] [cursor=pointer]:
+              - img "profile picture" [ref=e279]
+              - generic [ref=e280]:
+                - paragraph [ref=e281]: manda akhil user
+                - paragraph [ref=e282]: 2026-02-06 04:35 PM
+            - separator [ref=e283]
+            - paragraph [ref=e284]: Automation Buzz Post Testing
+          - generic [ref=e285]:
+            - generic [ref=e286] [cursor=pointer]:
+              - img "profile picture" [ref=e288]
+              - generic [ref=e289]:
+                - paragraph [ref=e290]: manda akhil user
+                - paragraph [ref=e291]: 2026-02-06 04:30 PM
+            - separator [ref=e292]
+            - paragraph [ref=e293]: Automation Buzz Post Testing
+          - generic [ref=e294]:
+            - generic [ref=e295] [cursor=pointer]:
+              - img "profile picture" [ref=e297]
+              - generic [ref=e298]:
+                - paragraph [ref=e299]: manda akhil user
+                - paragraph [ref=e300]: 2026-02-06 04:13 PM
+            - separator [ref=e301]
+            - paragraph [ref=e302]: Automation Buzz Post Testing
+      - generic [ref=e304]:
+        - generic [ref=e305]:
+          - paragraph [ref=e310]: Employees on Leave Today
+          - generic [ref=e311] [cursor=pointer]: 
+        - separator [ref=e312]
+        - generic [ref=e314]:
+          - img "No Content" [ref=e315]
+          - paragraph [ref=e316]: No Employees are on Leave Today
+      - generic [ref=e318]:
+        - generic [ref=e320]:
+          - generic [ref=e321]: 
+          - paragraph [ref=e322]: Employee Distribution by Sub Unit
+        - separator [ref=e323]
+        - list [ref=e328]:
+          - listitem [ref=e329] [cursor=pointer]:
+            - generic "Engineering" [ref=e331]
+          - listitem [ref=e332] [cursor=pointer]:
+            - generic "Human Resources" [ref=e334]
+          - listitem [ref=e335] [cursor=pointer]:
+            - generic "Administration" [ref=e337]
+          - listitem [ref=e338] [cursor=pointer]:
+            - generic "Client Services" [ref=e340]
+          - listitem [ref=e341] [cursor=pointer]:
+            - generic "Unassigned" [ref=e343]
+      - generic [ref=e345]:
+        - generic [ref=e347]:
+          - generic [ref=e348]: 
+          - paragraph [ref=e349]: Employee Distribution by Location
+        - separator [ref=e350]
+        - list [ref=e355]:
+          - listitem [ref=e356] [cursor=pointer]:
+            - generic "Texas R&D" [ref=e358]
+          - listitem [ref=e359] [cursor=pointer]:
+            - generic "New York Sales Office" [ref=e361]
+          - listitem [ref=e362] [cursor=pointer]:
+            - generic "Unassigned" [ref=e364]
+    - generic [ref=e365]:
+      - paragraph [ref=e366]: OrangeHRM OS 5.8
+      - paragraph [ref=e367]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e368] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```
